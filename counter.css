@@ -44,7 +44,7 @@ body {
 #decrease_btn, #increase_btn {
     display: inline-block;
     width: 29.875rem;
-    height: 10rem;
+    height: 6rem;
     font-size: 0;
     border-style: solid;
     border-color: #424250;
@@ -57,13 +57,7 @@ body {
     color: #ec2127;
 }
 
-#increase_btn_drawing {
-    width: 3rem;
-    font-size: 1rem;
-    margin: auto;
-}
-
-#decrease_btn_drawing {
+#increase_btn_drawing, #decrease_btn_drawing {
     width: 3rem;
     font-size: 1rem;
     margin: auto;
