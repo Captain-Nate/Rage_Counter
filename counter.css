@@ -1,0 +1,82 @@
+h1 {
+    color: #ec2127 !important;
+}
+
+body {
+    background-color: #424250 !important;
+    font-family: sans-serif;
+    margin-left: 1rem;
+}
+
+#dwarf_barb {
+    display:block;
+    width: 28%;
+    border-radius: 20px;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rage_count {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60rem; 
+    background-color: #31313b; 
+    color:#ec2127;
+    text-align: center;
+    font-size: 20rem;
+    border-radius: 20px;
+}
+
+
+#buttons_container {
+    display: inline-block;
+    width: 60rem;
+    text-align: center;
+    background-color: #31313b; 
+    border-radius: 20px;
+    font-size: 0;
+    
+}
+
+#decrease_btn, #increase_btn {
+    display: inline-block;
+    width: 29.875rem;
+    height: 10rem;
+    font-size: 0;
+    border-style: solid;
+    border-color: #424250;
+    border-width: 0.01rem;
+    padding-top: 2rem;
+    color: #515163;
+}
+
+#decrease_btn:hover, #decrease_btn:focus, #increase_btn:hover, #increase_btn:focus, #reset_btn:hover {
+    color: #ec2127;
+}
+
+#increase_btn_drawing {
+    width: 5em;
+    font-size: 1rem;
+    margin: auto;
+}
+
+#decrease_btn_drawing {
+    width: 5em;
+    font-size: 1rem;
+    margin: auto;
+}
+
+#reset_btn {
+    text-align: center;
+    color: #88889e;
+    font-size: x-large;
+    background-color: #31313b; 
+    border-radius: 10px;
+	border: none;
+	padding: 1rem;
+	font: inherit;
+	outline: inherit;
+}
