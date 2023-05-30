@@ -9,8 +9,10 @@ function update_num() {
 };
 
 inc_btn.addEventListener("click", function() {
-    curr_val++;
-    update_num();
+    if(curr_val <= 10){
+        curr_val++;
+        update_num();
+    }
 });
 
 dec_btn.addEventListener("click", function() {
